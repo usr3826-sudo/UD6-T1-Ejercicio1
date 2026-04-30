@@ -12,7 +12,7 @@ public class Reparacion {
         this.descripcion = descripcion;
         this.urgente = urgente;
     }
-    
+
     public String getCodigo() {
         return codigo;
     }
@@ -43,5 +43,16 @@ public class Reparacion {
 
     public void setUrgente(boolean urgente) {
         this.urgente = urgente;
+    }
+
+    @Override
+    public String toString() {
+        return codigo + " - " + cliente + " - " + descripcion + " - " + urgente;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Reparacion r = (Reparacion) obj;
+        return this.codigo.equals(r.codigo);
     }
 }

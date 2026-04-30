@@ -1,26 +1,38 @@
-# Gestión de Reparaciones 
+# Gestión de Reparaciones
 
-En este proyecto hago un sistema de atención de una empresa de reparación de dispositivos utilizando estructuras de datos en Java.
+# Descripción
 
-# Lo que se utilizo
+Aplicación hecha en Java sobre la gestión de reparaciones de dispositivos. Se utiliza una cola para atender solicitudes en orden de llegada y una pila para almacenar el historial de reparaciones hechas.
 
-- Uso de **Queue (cola)** para gestionar reparaciones pendientes (FIFO)
-- Uso de **Stack (pila)** para almacenar historial (LIFO)
-- Añadir reparaciones
-- Mostrar pendientes
-- Consultar siguiente reparación
-- Atender reparaciones
-- Gestionar historial
+
+# Funcionalidades
+
+* Añadir reparaciones a la cola
+* Mostrar reparaciones pendientes
+* Consultar la siguiente reparación
+* Atender reparaciones (eliminarlas de la cola)
+* Guardar reparaciones atendidas en una pila
+* Mostrar la última reparación atendida
+* Consultar el estado de la cola
   
-# Estructura
 
-- `Reparacion.java`
-- `App.java`
+## Tecnologías utilizadas
 
-#  Ejecución
+* Java
+* Queue (LinkedList)
+* Stack
+* Programación orientada a objetos
 
-1. Compilar el proyecto
-2. Ejecutar la clase `Main`
+
+# Uso del programa
+
+1. Ejecutar la clase `App.java`
+2. El programa cargará datos de ejemplo automáticamente
+3. Se mostrarán las reparaciones pendientes
+4. Se simulará la atención de reparaciones
+5. Se visualizará el estado final de la cola y la pila
 
 # Autor
-Adrián Jacob Ramos Reverón 
+Adrián Jacob Ramos Reveron
+
+## 👨‍💻 Autor

@@ -34,5 +34,3 @@ Aplicación hecha en Java sobre la gestión de reparaciones de dispositivos. Se 
 
 # Autor
 Adrián Jacob Ramos Reveron
-
-## 👨‍💻 Autor

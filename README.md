@@ -26,7 +26,7 @@ Aplicación hecha en Java sobre la gestión de reparaciones de dispositivos. Se 
 
 # Uso del programa
 
-1. Ejecutar la clase `App.java`
+1. Ejecutar la clase App.java
 2. El programa cargará datos de ejemplo automáticamente
 3. Se mostrarán las reparaciones pendientes
 4. Se simulará la atención de reparaciones

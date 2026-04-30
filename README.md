@@ -1,19 +1,26 @@
-## Getting Started
+# Gestión de Reparaciones (Queue + Stack)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+En este proyecto hago un sistema de atención de una empresa de reparación de dispositivos utilizando estructuras de datos en Java.
 
-## Folder Structure
+# Lo que se utilizo
 
-The workspace contains two folders by default, where:
+- Uso de **Queue (cola)** para gestionar reparaciones pendientes (FIFO)
+- Uso de **Stack (pila)** para almacenar historial (LIFO)
+- Añadir reparaciones
+- Mostrar pendientes
+- Consultar siguiente reparación
+- Atender reparaciones
+- Gestionar historial
+- 
+# Estructura
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `Reparacion.java`
+- `App.java`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+#  Ejecución
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Compilar el proyecto
+2. Ejecutar la clase `Main`
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-"# UD6-T1-Ejercicio1"  
+# Autor
+Adrián Jacob Ramos Reverón 

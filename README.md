@@ -1,4 +1,4 @@
-# Gestión de Reparaciones (Queue + Stack)
+# Gestión de Reparaciones 
 
 En este proyecto hago un sistema de atención de una empresa de reparación de dispositivos utilizando estructuras de datos en Java.
 
@@ -11,7 +11,7 @@ En este proyecto hago un sistema de atención de una empresa de reparación de d
 - Consultar siguiente reparación
 - Atender reparaciones
 - Gestionar historial
-- 
+  
 # Estructura
 
 - `Reparacion.java`
